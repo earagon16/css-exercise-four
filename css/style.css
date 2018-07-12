@@ -1,14 +1,14 @@
+
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
+
 body {
   background-color: #dadada;
   font-size: 10px;
 }
-  body{
-    background-color:#fff;
-  }
-}
+
 .content {
   margin: 20px auto;
   width: 100%;
@@ -29,62 +29,21 @@ h1 {
   height: auto;
 }
 
-.img-baku {
-  width: 100% auto;
+.preview {
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   height: auto;
   display: inline;
 }
 
-}
-.text-baku {
-  text-align: left;
-  padding-top: 30px;
-  padding-left: 50px;
-  position: fixed;
-}
-
-.img-london {
-  width: 100% auto;
-  margin-right: auto;
-  margin-left: auto;
-  height: auto;
-  display: inline;
-}
-.text-london {
-  text-align: left;
-  padding-left: 20px;
-  padding-top: 10px;
-  position: fixed;
-}
-
-.img-madrid{
-  width: 375px auto;
-  margin-left: auto;
-  margin-right: auto;
-  height: 150px auto;
-  display: inline;
-}
-
-.text-madrid{
-  text-align: left;
-  padding-left: 20px;
-  padding-top: 10px;
-  position: fixed;
-}
-
-.img-rome{
+.baku {
   width: 100% auto;
   margin-left: auto;
-  magin-right: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
   height: auto;
   display: inline;
-}
-
-.text-rome{
   text-align: left;
-  padding-left: 20px;
-  padding-top: 10px;
-  position: fixed;
+  position: relative;
 }
